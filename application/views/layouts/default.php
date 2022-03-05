@@ -92,7 +92,7 @@
                 <svg class="list-exposition__svg "role='img' aria-label='' focusable='false' width='77px' height='77px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
                   <use xlink:href='/public/sprite/icons.svg#icon_exposition_link_4'></use>
                 </svg>
-                <span class="list-exposition__link-text">Админка</span>
+                <span class="list-exposition__link-text">Админка!</span>
               </a></li>
         </ul>
         </li>
