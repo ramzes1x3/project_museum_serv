@@ -3340,3 +3340,44 @@ button {
         background-size: 180px 158px
     }
 }
+
+/* expo */
+.nav-item {
+    text-decoration: none;
+    color: slategray;
+}
+
+.back {
+    height: 100%;
+    background: url("/img/back_expo_1.png") 0 0 no-repeat;
+    background-size: cover;
+    background-color: aliceblue;
+}
+
+.title-expo {
+    text-align: center;
+    text-decoration: underline;
+    color: navy;
+    margin-bottom: 50px;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 20%;
+    background: #ffffff;
+    margin: 10px;
+    list-style: none;
+    padding: 5px;
+}
+
+.item-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

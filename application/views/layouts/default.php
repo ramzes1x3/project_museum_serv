@@ -60,7 +60,7 @@
           </a>
         <ul class="header-menu__list-exposition list-exposition">
             <li class="list-exposition__item">
-              <a href="#" class="list-exposition__link">
+              <a href="/application/views/layouts/radio.php" class="list-exposition__link">
                 <svg class="list-exposition__svg" role='img' aria-label='' focusable='false' width='77px' height='77px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
                   <use xlink:href='/public/sprite/icons.svg#icon_exposition_link_1'></use>
                 </svg>
