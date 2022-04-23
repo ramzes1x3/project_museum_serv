@@ -10,7 +10,7 @@
       <li class="main-menu__item">
         <a href="#history-museum-section" class="main-menu__link">
           <div class="main-menu__wrapper wrapper--about-museum"></div>
-          <span class="main-menu__text">О МУЗЕЕ</span>
+          <span class="main-menu__text">ВСЕ ЖЕ НЕ МУЗЕЙ</span>
         </a>
       </li>
       <li class="main-menu__item">
