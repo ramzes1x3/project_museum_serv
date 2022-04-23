@@ -9,7 +9,7 @@ use application\models\Admin;
 class MainController extends Controller {
 
 	public function indexAction() {
-		$this->view->render('О музее');
+		$this->view->render('Политехнический музей ИТА ЮФУ');
 	}
 
 	public function postsAction() {
@@ -97,6 +97,10 @@ class MainController extends Controller {
 		$this->view->render('Записаться');
 	}
 
+	public function museumAction() {
+		$this->view->render('История музея');
+	}
+
 	public function postAction() {
 		$adminModel = new Admin;
 		if (!$adminModel->isPostExists($this->route['id'])) {
@@ -129,4 +133,5 @@ class MainController extends Controller {
 		];
 		$this->view->render('Экспонат', $vars);
 	}
+
 }

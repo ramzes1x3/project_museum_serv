@@ -15,6 +15,7 @@ return [
 		'event',
 		'contact',
 		'visit',
+		'museum',
 	],
 	'authorize' => [
 		//

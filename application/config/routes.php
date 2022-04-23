@@ -22,6 +22,10 @@ return [
 		'controller' => 'main',
 		'action' => 'event',
 	],
+	'museum' => [
+		'controller' => 'main',
+		'action' => 'museum',
+	],	
 	'objects' => [
 		'controller' => 'main',
 		'action' => 'objects',

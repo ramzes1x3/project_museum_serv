@@ -1,0 +1,21 @@
+.container{
+    width: auto;
+    height: 100%;
+    padding-top: 74px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.page-head{
+
+}
+
+.main-image-expo{
+    width: 650px;
+    height: auto;
+}

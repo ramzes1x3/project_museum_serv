@@ -25,14 +25,15 @@
     </head>
     <body class="page__body">
         <div class="page-wrapper">
-          <header class="page-header">
+
+        <header class="page-header">
   <div class="page-header__container">
     <a href="https://sfedu.ru/" target="_blank" class="page-header__link-sfedu">
-      <picture><source srcset="/public/images/logo_sfedu.webp" type="image/webp"><img class="page-header__logo-desktop-sfedu" src="/public/images/logo_sfedu.png" alt="Логотип ЮФУ" width="81px" height="75px"></picture>
-      <picture><source srcset="/public/images/logo_sfedu.webp" type="image/webp"><img class="page-header__logo-mobile-sfedu" src="/public/images/logo_sfedu.png" alt="Логотип ЮФУ" width="62px" height="62px"></picture>
+      <picture><source srcset="/images/logo_sfedu.webp" type="/images/webp"><img class="page-header__logo-desktop-sfedu" src="/public/images/logo_sfedu.png" alt="Логотип ЮФУ" width="81px" height="75px"></picture>
+      <picture><source srcset="/images/logo_sfedu.webp" type="/images/webp"><img class="page-header__logo-mobile-sfedu" src="/public/images/logo_sfedu.png" alt="Логотип ЮФУ" width="62px" height="62px"></picture>
     </a>
     <div class="page-header__logo-museum">
-      <a href="#" class="page-header__link-museum">
+      <a href="/" class="page-header__link-museum">
           <svg class="page-header__svg-desktop-museum" role='img' aria-label='Ссылка на главную страницу музея' focusable='false' class='icon-box' width="245px" height="69px" xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
             <use xlink:href='/public/sprite/icons.svg#logo_museum'></use>
           </svg>
@@ -44,7 +45,7 @@
     <nav class="page-header__header-menu header-menu">
       <ul class="header-menu__list-menu">
         <li class="header-menu__item">
-          <a href="#" class="header-menu__link">Главная</a>
+          <a href="/" class="header-menu__link">Главная</a>
         </li>
         <li class="header-menu__item item--expostion-mobile">
           <a href="#" class="header-menu__link link--exposition">
@@ -58,7 +59,7 @@
               <use xlink:href='/public/sprite/icons.svg#icon_exposition_mobile'></use>
             </svg>
           </a>
-        <ul class="header-menu__list-exposition list-exposition">
+          <ul class="header-menu__list-exposition list-exposition">
             <li class="list-exposition__item">
               <a href="/objects1" class="list-exposition__link">
                 <svg class="list-exposition__svg" role='img' aria-label='' focusable='false' width='77px' height='77px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
@@ -67,34 +68,27 @@
                 <span class="list-exposition__link-text">Радиотехника и телевидение</span>
               </a></li>
             <li class="list-exposition__item">
-              <a href="#" class="list-exposition__link">
+              <a href="/objects2" class="list-exposition__link">
                 <svg class="list-exposition__svg"role='img' aria-label='' focusable='false' width='77px' height='77px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
                   <use xlink:href='/public/sprite/icons.svg#icon_exposition_link_2'></use>
                 </svg>
                 <span class="list-exposition__link-text">Автоматика <br>и вычислительная техника</span>
               </a></li>
             <li class="list-exposition__item">
-              <a href="#" class="list-exposition__link">
+              <a href="/objects3" class="list-exposition__link">
                 <svg class="list-exposition__svg"role='img' aria-label='' focusable='false' width='77px' height='77px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
                   <use xlink:href='/public/sprite/icons.svg#icon_exposition_link_3'></use>
                 </svg>
                 <span class="list-exposition__link-text">Авиация и космонавтика</span>
               </a></li>
             <li class="list-exposition__item">
-              <a href="#" class="list-exposition__link">
+              <a href="/objects4" class="list-exposition__link">
                 <svg class="list-exposition__svg "role='img' aria-label='' focusable='false' width='77px' height='77px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
                   <use xlink:href='/public/sprite/icons.svg#icon_exposition_link_4'></use>
                 </svg>
                 <span class="list-exposition__link-text">Электроника <br>и информационная безопасность</span>
               </a></li>
-            <li class="list-exposition__item">
-              <a href="/admin/login" class="list-exposition__link">
-                <svg class="list-exposition__svg "role='img' aria-label='' focusable='false' width='77px' height='77px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
-                  <use xlink:href='/public/sprite/icons.svg#icon_exposition_link_4'></use>
-                </svg>
-                <span class="list-exposition__link-text">Админка!</span>
-              </a></li>
-        </ul>
+          </ul>
         </li>
         <li class="header-menu__item item--event-mobile">
           <a href="#" class="header-menu__link">
@@ -104,91 +98,88 @@
           </a>
         </li>
         <li class="header-menu__item">
-          <a href="#museum-contacts-section" class="header-menu__link">
-            <span class="header-menu__contacts">Контакты</span>
+          <a href="/events" class="header-menu__link">
+            <span class="header-menu__contacts">МЕРОПРИЯТИЯ</span>
           </a>
         </li>
       </ul>
     </nav>
-    <button type="button" class="page-header__sign-up">Хочу прийти!</button>
+    <button type="button" class="page-header__sign-up"><a href="/visit">Хочу прийти!</a></button>
 
     <ul class="header-menu__list-exposition-mobile list-exposition-mobile">
       <li class="list-exposition-mobile__item">
-        <a href="../main/objects1.php" class="list-exposition-mobile__link">
+        <a href="/objects1" class="list-exposition-mobile__link">
           <svg class="list-exposition-mobile__svg"role='img' aria-label='' focusable='false' width='77px' height='77px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
             <use xlink:href='/public/sprite/icons.svg#icon_exposition_link_1'></use>
           </svg>
           <span class="list-exposition-mobile__link-text">Радиотехника и телевидение</span>
         </a></li>
       <li class="list-exposition-mobile__item">
-        <a href="#" class="list-exposition-mobile__link">
+        <a href="/objects2" class="list-exposition-mobile__link">
           <svg class="list-exposition-mobile__svg"role='img' aria-label='' focusable='false' width='77px' height='77px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
             <use xlink:href='/public/sprite/icons.svg#icon_exposition_link_2'></use>
           </svg>
           <span class="list-exposition-mobile__link-text">Автоматика <br>и вычислительная техника</span>
         </a></li>
       <li class="list-exposition-mobile__item">
-        <a href="#" class="list-exposition-mobile__link">
+        <a href="/objects3" class="list-exposition-mobile__link">
           <svg class="list-exposition-mobile__svg"role='img' aria-label='' focusable='false' width='77px' height='77px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
             <use xlink:href='/public/sprite/icons.svg#icon_exposition_link_3'></use>
           </svg>
           <span class="list-exposition-mobile__link-text">Авиация и космонавтика</span>
         </a></li>
       <li class="list-exposition-mobile__item">
-        <a href="#" class="list-exposition-mobile__link">
+        <a href="/objects4" class="list-exposition-mobile__link">
           <svg class="list-exposition-mobile__svg "role='img' aria-label='' focusable='false' width='77px' height='77px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
             <use xlink:href='/public/sprite/icons.svg#icon_exposition_link_4'></use>
           </svg>
           <span class="list-exposition-mobile__link-text">Электроника <br>и информационная безопасность</span>
         </a></li>
-    <li class="list-exposition-mobile__item">
-        <a href="/admin/login" class="list-exposition-mobile__link">
-          <svg class="list-exposition-mobile__svg "role='img' aria-label='' focusable='false' width='77px' height='77px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
-            <use xlink:href='/public/sprite/icons.svg#icon_exposition_link_4'></use>
-          </svg>
-          <span class="list-exposition-mobile__link-text">Админка</span>
-        </a></li>
     </ul>
   </div>
 </header>
 <?php echo $content; ?>
-          <footer class="page-footer">
+<footer class="page-footer">
   <div class="page-footer__container">
-    <ul class="page-footer__menu footer-menu">
-      <li class="footer-menu__item">
-        <a href="#news-section" class="footer-menu__link">НОВОСТИ</a>
-      </li>
-      <li class="footer-menu__item">
-        <a href="#history-museum-section" class="footer-menu__link">О МУЗЕЕ</a>
-      </li>
-      <li class="footer-menu__item">
-        <a href="#" class="footer-menu__link">ЛАБОРАТОРИЯ</a>
-      </li>
-      <li class="footer-menu__item">
-        <a href="#" class="footer-menu__link">ЧАТ-БОТ</a>
-      </li>
-    </ul>
-    <div class="page-footer__wrapper-icons">
-        <a href="https://vk.com/id368810061" target="_blank" class="page-footer__vk-link">
-          <svg class="page-footer__vk-icon" role='img'  focusable='false' width='58px' height='58px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
-            <use xlink:href='/public/sprite/icons.svg#footer_icon_vk'></use>
-          </svg>
-        </a>
-        <a href="https://sfedu.ru/" target="_blank" class="page-footer__sfedu-link">
-          <picture><source srcset="/public/images/footer_sfedu@2x.webp" type="image/webp"><img src="/public/images/footer_sfedu@2x.png" alt="Логотип ЮФУ" class="page-footer__sfedu-icon" width="75px" height="70px"></picture>
-        </a>
+    <div class="page-footer__wrapper-menu-block">
+      <ul class="page-footer__menu footer-menu">
+        <li class="footer-menu__item">
+          <a href="/events" class="footer-menu__link">НОВОСТИ</a>
+        </li>
+        <li class="footer-menu__item">
+          <a href="/" class="footer-menu__link">ИСТОРИЯ</a>
+        </li>
+        <li class="footer-menu__item">
+          <a href="/" class="footer-menu__link">ЛАБОРАТОРИЯ</a>
+        </li>
+        <li class="footer-menu__item">
+          <a href="/" class="footer-menu__link">ЧАТ-БОТ</a>
+        </li>
+      </ul>
+      <div class="page-footer__wrapper-icons">
+          <a href="https://vk.com/id368810061" target="_blank" class="page-footer__vk-link">
+            <svg class="page-footer__vk-icon" role='img'  focusable='false' width='58px' height='58px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+              <use xlink:href='/public/sprite/icons.svg#footer_icon_vk'></use>
+            </svg>
+          </a>
+          <a href="https://sfedu.ru/" target="_blank" class="page-footer__sfedu-link">
+            <picture><source srcset="/public/images/footer_sfedu@2x.webp" type="image/webp"><img src="/public/images/footer_sfedu@2x.png" alt="Логотип ЮФУ" class="page-footer__sfedu-icon" width="60" height="56"></picture>
+          </a>
+      </div>
     </div>
     <span class="page-footer__line"></span>
-    <div class="page-footer__address">
-      Адрес: 347900, Россия, Ростовская обл., г. Таганрог,
-      ул. Чехова, 22, корп. «Б», 2-й подъезд
-    </div>
-    <div class="page-footer__contacts">
-      <p class="page-footer__number">8 (863) 437-14-61</p>
-      <p class="page-footer__time">По будням с 9:00 до 17:00</p>
-    </div>
-    <div class="page-footer__copyright">
-      © 2021 Политехнический музей ЮФУ. Все права защищены.
+    <div class="page-footer__wrapper-contact-block">
+      <p class="page-footer__title">КОНТАКТНАЯ ИНФОРМАЦИЯ:</p>
+      <p class="page-footer__address">Адрес: 347900, Россия, Ростовская обл., г. Таганрог, ул. Чехова, 22, корп. «Б», 2-й подъезд</p>
+      <p class="page-footer__number">Телефон: +7 (863) 437-14-61</p>
+      <p class="page-footer__email">Email: museum@tti.sfedu.ru</p>
+      <p class="page-footer__visit">Посещение музея возможно только по предварительной записи.</p>
+      <button type="button" class="page-footer__btn-form btn-form">
+        <a href="/contact">ЗАДАТЬ ВОПРОС</a>
+      </button>
+      <div class="page-footer__copyright">
+        Сайт разработан командой PALMARIUS в составе студентов ИКТИБ ЮФУ 2022 г.
+      </div>
     </div>
   </div>
 </footer>
