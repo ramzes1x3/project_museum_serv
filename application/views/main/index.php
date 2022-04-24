@@ -2,7 +2,7 @@
   <div class="page-main__container">
     <ul class="page-main__main-menu main-menu">
       <li class="main-menu__item">
-        <a href="/events" class="main-menu__link">
+        <a href="/posts" class="main-menu__link">
           <div class="main-menu__wrapper wrapper--news"></div>
           <span class="main-menu__text">НОВОСТИ</span>
         </a>
