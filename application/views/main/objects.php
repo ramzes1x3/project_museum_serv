@@ -1,19 +1,3 @@
-<head>
-        <meta charset="UTF-8">
-        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
-        <link rel="stylesheet" href="/public/styles/style.min.css">
-        <link rel="stylesheet" href="/public/styles/objects1.css">
-        <link rel="preload" as="font" type="font/woff2"
-          href="/public/fonts/OpenSans-Regular.woff2" crossorigin>
-        <link rel="preload" as="font" type="font/woff2"
-          href="/public/fonts/OpenSans-Bold.woff2" crossorigin>
-
-        <script src="/public/scripts/jquery.js"></script>
-        <script src="/public/scripts/form.js"></script>
-        <script src="/public/scripts/popper.js"></script>
-        <script src="/public/scripts/bootstrap.js"></script>
-    </head>
 <div class="container">
     <div class="row">
             <?php if (empty($list)): ?>
