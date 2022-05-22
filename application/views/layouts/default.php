@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <title>Политехнический музей ИТА ЮФУ</title>
         <meta charset="UTF-8">
+        <title>Главная страница</title>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <meta name="viewport" content="width=device-width, initial-scale = 1.0">
         <meta name = "description" content = "Политехнический музей ИТА ЮФУ">
@@ -16,6 +16,9 @@
           rel="stylesheet"
           href="https://unpkg.com/swiper/swiper-bundle.min.css?_v=20220508230505"
         />
+        <script src="/public/scripts/jquery.js"></script>
+        <script src="/public/scripts/form.js"></script>
+        <script src="/public/scripts/popper.js"></script>
         <script src="https://api-maps.yandex.ru/2.1/?a5ea9f03-c642-48d8-97b4-cdc88ff35b55&lang=ru_RU&_v=20220508230505" type="text/javascript">
         </script>
     </head>
