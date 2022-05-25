@@ -15,22 +15,22 @@
         <form action="/visit" method="post" id="events-registration-desktop" class="event-registration-form" name="event-registration">
           <p class="event-registration-form__user-name-block">
             <label for="user-name-input" class="visually-hidden">Ваше имя</label>
-            <input type="text" class="event-registration-form__user-name req name" class="req" id="user-name-input" name="name"
-              placeholder="Ваше имя" required>
+            <input type="text" class="form-control event-registration-form__user-name req name" class="req" id="user-name-input" name="name"
+              placeholder="Имя" required>
           </p>
           <p class="event-registration-form__user-email-block">
             <label for="user-email-input" class="visually-hidden">Ваш email</label>
-            <input type="email" class="event-registration-form__user-email req email" id="user-email-input" name="email"
-              placeholder="Ваш email" required>
+            <input type="text" class="form-control event-registration-form__user-email req email" id="user-email-input" name="email"
+              placeholder="E-mail" required>
           </p>
           <p class="event-registration-form__date-block">
             <label for="date-event" class="visually-hidden">Дата проведения</label>
-            <input type="text" class="event-registration-form__user-email req email" id="date-event" name="date"
+            <input type="date" class="form-control event-registration-form__user-email req email" id="date-event" name="date"
               placeholder="Дата проведения" required>
           </p>
           <p class="event-registration-form__user-about-block">
             <label class="visually-hidden" for ="user-about-text">Комментарий</label>
-            <textarea class="event-registration-form__user-question" id ="user-about-text" name ="text" rows ="6"
+            <textarea class="form-control event-registration-form__user-question" id ="user-about-text" name ="text" rows ="6"
                 placeholder="Комментарий"></textarea>
           </p>
           <p class="event-registration-form__rules">

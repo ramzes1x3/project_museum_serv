@@ -10,7 +10,7 @@
         </div>
         <div class="article-expo__wrraper-about wrraper-about">
           <span class="wrraper-about__bold-text wrraper-about__bold-text--date">Дата выпуска:</span>
-          <p class="wrraper-about__date">22.04.2014</p>
+          <p class="wrraper-about__date"><?php echo htmlspecialchars($data['date'], ENT_QUOTES); ?></p>
           <span class="wrraper-about__bold-text wrraper-about__bold-text--category">Категория:</span>
           <p class="wrraper-about__category">Радиотехника и телевидение</p>
           <span class="wrraper-about__bold-text wrraper-about__bold-text--description">Описание:</span>

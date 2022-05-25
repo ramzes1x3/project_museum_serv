@@ -25,7 +25,7 @@
                             </a>
                         </li>
                     <?php endforeach; ?>
-                    <div class="clearfix pagination-list-expo__item">
+                    <div class="clearfix">
                         <?php echo $pagination; ?>
                     </div>
                 <?php endif; ?>

@@ -70,7 +70,7 @@ class Main extends Model {
 	}
 
 	public function postsList($route) {
-		$max = 10;
+		$max = 16;
 		$params = [
 			'max' => $max,
 			'start' => ((($route['page'] ?? 1) - 1) * $max),
@@ -79,7 +79,7 @@ class Main extends Model {
 	}
 
 	public function eventsList($route) {
-		$max = 10;
+		$max = 16;
 		$params = [
 			'max' => $max,
 			'start' => ((($route['page'] ?? 1) - 1) * $max),
@@ -88,7 +88,7 @@ class Main extends Model {
 	}
 
 	public function objectsList($route) {
-		$max = 10;
+		$max = 16;
 		$params = [
 			'max' => $max,
 			'start' => ((($route['page'] ?? 1) - 1) * $max),
@@ -97,7 +97,7 @@ class Main extends Model {
 	}
 
 	public function objects1List($route) {
-		$max = 10;
+		$max = 16;
 		$params = [
 			'max' => $max,
 			'start' => ((($route['page'] ?? 1) - 1) * $max),
@@ -106,7 +106,7 @@ class Main extends Model {
 	}
 
 	public function objects2List($route) {
-		$max = 10;
+		$max = 16;
 		$params = [
 			'max' => $max,
 			'start' => ((($route['page'] ?? 1) - 1) * $max),
@@ -115,7 +115,7 @@ class Main extends Model {
 	}
 
 	public function objects3List($route) {
-		$max = 10;
+		$max = 16;
 		$params = [
 			'max' => $max,
 			'start' => ((($route['page'] ?? 1) - 1) * $max),
@@ -124,7 +124,7 @@ class Main extends Model {
 	}
 
 	public function objects4List($route) {
-		$max = 10;
+		$max = 16;
 		$params = [
 			'max' => $max,
 			'start' => ((($route['page'] ?? 1) - 1) * $max),

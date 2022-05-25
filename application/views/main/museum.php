@@ -57,7 +57,7 @@
               <use xlink:href='/public/sprite/icons.svg#expo_main_icon_2'></use>
             </svg>
             <p class="exposition-list-main-page__text">
-              Автоматикаи вычислительная техника
+              Автоматика и вычислительная техника
             </p>
           </a>
         </li>

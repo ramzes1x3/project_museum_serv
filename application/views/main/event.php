@@ -7,11 +7,11 @@
         </h1>
         <div class="article-event__info">
           <p class="article-event__date">
-            20 августа 2022
+          <?php echo htmlspecialchars($data['date'], ENT_QUOTES); ?>
           </p>
-          <p class="article-event__time">
+          <!-- <p class="article-event__time">
             16:00
-          </p>
+          </p> -->
           <a href="/visit" class="article-event__btn-join">
             ЗАПИСАТЬСЯ
           </a>

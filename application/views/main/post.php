@@ -6,7 +6,7 @@
             <?php echo htmlspecialchars($data['name'], ENT_QUOTES); ?>
         </h1>
         <p class="news-article__date">
-          1 Апреля 2017
+        <?php echo htmlspecialchars($data['date'], ENT_QUOTES); ?>
         </p>
         <img src='/public/materials/posts/<?php echo $data['id']; ?>.jpg' alt="Новостное фото" class="news-article__photo" width="620" height="450">
         <p class="news-article__text">

@@ -1,4 +1,3 @@
-
 <main class="page-main page-expo-radio expo-bg">
     <div class="expo__container">
         <section class="expo">
@@ -22,7 +21,7 @@
             </div>
             <?php if (!empty($list)): ?>
                 <div class="clearfix">
-                        <?php echo $pagination; ?>
+                    <?php echo $pagination; ?>
                 </div>
             <?php endif; ?>  
         </div>
